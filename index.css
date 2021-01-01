@@ -1,0 +1,196 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+a:active{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+
+}
+.nav{
+    background-color: #1EB621;
+    color:white;
+    font-size: 3.8rem;
+    padding:10px;
+}
+.landing{
+    background-color: #FF6E00;
+    color:white;
+    flex-flow: column;
+}
+.landing > img{
+    width: 40rem;
+}
+.landing > h1{
+    font-size: 8rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.landing > p{
+    font-size: 2rem;
+    padding:16px;
+    max-width: 1100px;
+}
+.btn{
+    font-family: 'Adamina', serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 360px;
+    padding: 15px 20px;
+    color: black;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.btn:hover{
+    background-color: #222;
+    color: white;
+    transform: scale(1.1);
+}
+.rewardFor{
+    background-color: #1EB621;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    color: white;
+    padding: 20px 0px;
+}
+.rewardFor .item{
+    flex-flow: column;
+}
+.rewardFor .item i{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.rewardFor .item >h2{
+    font-size: 3rem;
+}
+.pointsSection{
+    flex-flow: column;
+    padding-top: 1rem;
+}
+
+.pointsSection > h1{
+    text-align: center;
+    font-size: 4rem;
+    padding: 10;
+    font-weight: 300;
+    max-width: 800px;
+    color:#222
+}
+.pointsSection .pointsDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pointsSection .pointsDiv .item{
+    flex-flow: column;
+    padding:20px
+}
+.pointsSection .pointsDiv .item > img{
+    width:90%;
+    max-width: 500px;
+}
+.pointsSection .pointsDiv .item > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.pointsSection .pointsDiv .item > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    max-width: 600px;
+    text-align: center;
+}
+.paidSection{
+    flex-flow: column;
+    background-color: #FF6E00;
+    padding: 0px 10px
+}
+.paidSection > h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+    /* max-width: 600px; */
+}
+.cardsSection{
+
+}
+.cardsSection .cardsDiv{
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap:10px;
+}
+.cardsSection .cardsDiv .item{
+    flex-flow: column;
+    padding-top: 2rem;
+}
+.cardsSection .cardsDiv .item > i{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.cardsSection .cardsDiv .item >h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.cardsSection .cardsDiv .item >p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 66, 66);
+    line-height: 2.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.instantPaidSection{
+    flex-flow: column;
+    background-color: #FF6E00;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.instantPaidSection > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+.footer{
+    background-color: #1EB621;
+    color: white;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 2rem;
+}
